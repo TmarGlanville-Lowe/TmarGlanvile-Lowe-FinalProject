@@ -18,7 +18,15 @@ public class Assignment {
     public void calcAssignmentAvg() {
         double sum = 0;
 
-        public void generateRandomScore() {
+        for (double num: scores){
+            sum += num;
+    }
+        if (scores.length > 0){
+            assignmentAverage = sum / scores.length;
+        }else
+            assignmentAverage = Double.parseDouble(null);
+
+    public void generateRandomScore() {
 
             Random rand = new Random();
 
