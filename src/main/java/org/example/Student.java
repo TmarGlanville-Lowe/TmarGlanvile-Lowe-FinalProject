@@ -20,8 +20,10 @@ public class Student {
     private static int nextId;
 
     public static boolean registerCourse(Course course){
+
     }
     public static boolean dropCourse(Course course){
 
     }
+    String getStudentId = this.studentName + this.gender + this.address + this.department;
 }

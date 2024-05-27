@@ -38,6 +38,7 @@ public class Course {
     }
    public String toSimplifiedString(){
 
+
     }
     public String toString(){
 

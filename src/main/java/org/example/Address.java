@@ -20,9 +20,9 @@ public class Address {
     public static boolean isPostalCodeValid(String strIn) {
 
         if (strIn.length() == 6) {
-            return String.format('CDCDCD', strIn);
+            return Boolean.parseBoolean(String.format("CDCDCD", strIn));
         } else if (strIn.length() == 7) {
-            return String.format('CDC CDC',strIn);
+            return Boolean.parseBoolean(String.format("CDC CDC",strIn));
         } else {
             return Boolean.parseBoolean(null);
         }
