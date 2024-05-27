@@ -15,7 +15,13 @@ public class Student {
     private Address address;
     private Department department;
 
-    private Course reigsteredCourses[];
+    private Course registeredCourses[];
 
     private static int nextId;
+
+    public static boolean registerCourse(Course course){
+    }
+    public static boolean dropCourse(Course course){
+
+    }
 }

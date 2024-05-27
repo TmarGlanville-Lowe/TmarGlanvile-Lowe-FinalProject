@@ -17,4 +17,30 @@ public class Course {
     private Student[] registeredStudents;
     private double[]  finalScores;
     private static int nextId;
+
+    public boolean isAssignmentValid(){
+
+    }
+    public boolean registeredStudent(Student student){
+
+    }
+    public int [] calcStudentAverage(){
+
+    }
+    public boolean addAssignment(String assignmentName, double weight,int maxScore){
+
+    }
+    public void generateScores (){
+
+    }
+    public void displayScores(){
+
+    }
+   public String toSimplifiedString(){
+
+    }
+    public String toString(){
+
+    }
+
 }
